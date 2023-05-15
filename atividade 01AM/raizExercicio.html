@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa raiz quadrada</title>
+</head>
+<body style="display: flex;">
+
+    <img src="Captura de tela 2023-05-15 085044.png" alt="">
+
+    <div style="width: 390px;">
+    
+    <h1>Programa Raiz Quadrada</h1>
+    <hr>
+    <p id="numero">
+        Número: <input type="text">
+    </p>
+
+    <button onclick="programaRaiz()" type="button" style="width: 150px;" id="botaore">Exibir Raiz Quadrada</button>
+    
+    <h3 id="resultado "></h3>
+</div>
+<script>
+
+function programaRaiz(){
+    let numero, resultado
+
+    raiz = Math.sqrt(numero)
+
+    if(raiz === 3){
+       TextC(`A raiz exata de ${numero} é ${raiz}`)
+    }else{
+        return `<h3>Não há raiz exata para ${numero}</h3>`
+    }
+
+}
+</script>
+</body>
+</html>
